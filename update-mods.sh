@@ -5,13 +5,15 @@ if [ -z "${PTERO_USER}" ]; then
   # Running via Pterodactyl
   #MODS_LOCATION="/home/container/ConanSandbox/Mods"
   #INSTALL_DIR="/home/container"  # Modify this line if needed
-  MODS_LOCATION="/var/lib/pterodactyl/volumes/12c24e3e-855f-4f08-8868-78747494b373/ConanSandbox/Mods"
-  INSTALL_DIR="/var/lib/pterodactyl/volumes/12c24e3e-855f-4f08-8868-78747494b373"  # Modify this line with the desired installation path
+  MODS_LOCATION="CONANDIRECTORY/ConanSandbox/Mods"
+  INSTALL_DIR="CONANDIRECTORY"  # Modify this line with the desired installation path
 else
   # Running manually
-  MODS_LOCATION="/var/lib/pterodactyl/volumes/12c24e3e-855f-4f08-8868-78747494b373/ConanSandbox/Mods"
-  INSTALL_DIR="/var/lib/pterodactyl/volumes/12c24e3e-855f-4f08-8868-78747494b373"  # Modify this line with the desired installation path
+  MODS_LOCATION="CONANDIRECTORY/ConanSandbox/Mods"
+  INSTALL_DIR="CONANDIRECTORY"  # Modify this line with the desired installation path
 fi
+# This was supposed to be used to autodetect if the script was running via Pterodactyl or manually, but I could never get it to work.
+# Probably just edit line 8 and 9
 
 # Progress bar function
 function show_progress() {
