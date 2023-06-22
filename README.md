@@ -32,8 +32,6 @@ MODS_LOCATION="CONANDIRECTORY/ConanSandbox/Mods"
 INSTALL_DIR="CONANDIRECTORY"  # Modify this line with the desired installation path
 
 Replace CONANDIRECTORY with the actual path to your Conan directory.
-Usage
-To update the mods, follow these steps:
 
 3. Open a terminal and navigate to the directory where you placed the update-mods.sh script.
 
