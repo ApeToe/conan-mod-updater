@@ -10,7 +10,7 @@ A mod updater designed for Conan Exiles dedicated servers running on Linux, but 
 ## Installation
 
 1. Clone this repository to your local machine:
-git clone https://github.com/your-username/conan-mod-updater.git
+git clone [https://github.com/your-username/conan-mod-updater.git](https://github.com/ApeToe/conan-mod-updater.git)
 
 2. Place the script (`update-mods.sh`) anywhere in your system.
 
