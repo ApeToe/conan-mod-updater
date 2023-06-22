@@ -27,18 +27,21 @@ Before running the updater script, you need to configure your Conan directory.
 1. Open the `update-mods.sh` script using a text editor.
 
 2. Locate the following line:
-```MODS_LOCATION="CONANDIRECTORY/ConanSandbox/Mods"
-  INSTALL_DIR="CONANDIRECTORY"  # Modify this line with the desired installation path
+
+MODS_LOCATION="CONANDIRECTORY/ConanSandbox/Mods"
+INSTALL_DIR="CONANDIRECTORY"  # Modify this line with the desired installation path
+
 Replace CONANDIRECTORY with the actual path to your Conan directory.
 Usage
 To update the mods, follow these steps:
 
-Open a terminal and navigate to the directory where you placed the update-mods.sh script.
+3. Open a terminal and navigate to the directory where you placed the update-mods.sh script.
 
 Make the script executable by running the following command:
 
 chmod +x update-mods.sh
-Run the updater script using the following command:
+
+4. Run the updater script using the following command:
 
 ./update-mods.sh
 The script will read the mods.txt file and update the listed mods in your Conan Exiles dedicated server.
