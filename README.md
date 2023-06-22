@@ -1,5 +1,5 @@
 # conan-mod-updater
-A mod updater for Conan Exiles dedicated servers running on Linux
+A mod updater designed for Conan Exiles dedicated servers running on Linux, but could be easily modified to work for most games.
 
 
 
