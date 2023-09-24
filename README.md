@@ -14,7 +14,7 @@ git clone https://github.com/ApeToe/conan-mod-updater.git
 
 2. Place the script (`update-mods.sh`) anywhere in your system.
 
-3. Create a file named `mods.txt` in the same directory as the script. Each line in this file should contain the mod ID of the mods you want to update. This file must also have a blank line at the bottom. For example:
+3. Create a file named `mods.txt` in the same directory as the script. Each line in this file should contain the mod ID of the mods you want to update. **This file must also have a blank line at the bottom.** For example:
 ```
 mod_id_1
 mod_id_2
